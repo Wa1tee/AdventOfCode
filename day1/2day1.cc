@@ -18,8 +18,6 @@ int main(){
 	//viesti += viesti[0];
 
 	for (int i = 0; i < viesti.size() ; ++i){
-		
-
 		if (viesti[i] == viesti[(i + check) % viesti.size()]){
 			
 			output += viesti[i] - '0';
